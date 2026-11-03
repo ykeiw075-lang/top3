@@ -109,15 +109,3 @@ project_repo/
 Протокол шести обязательных проверок находится в
 [docs/test-cases.md](docs/test-cases.md).
 
-## Git
-
-Для публикации создайте пустой репозиторий на GitHub или GitVerse и выполните:
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Начальная версия проекта: разделение общего счёта"
-git remote add origin АДРЕС_РЕПОЗИТОРИЯ
-git push -u origin main
-```
